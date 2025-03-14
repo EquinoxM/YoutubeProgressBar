@@ -19,18 +19,6 @@ html[cairo] {
     --ytcp-static-brand-red-a38: rgba(255, 0, 0, 0.38) !important
 }
 
-.ytp-timed-markers-container, .ytp-progress-list {
-	transform: scaleY(1) !important
-}
-
-.ytp-progress-bar-container:hover:not([aria-disabled=true]) .ytp-exp-chapter-hover-effect {
-	transform: scaleY(2) !important
-}
-
-.ytp-exp-chapter-hover-container:hover {
-	transform: scaleY(2) !important
-}
-
 .ytThumbnailOverlayProgressBarHostWatchedProgressBarSegment {
     background-color: #f00 !important
 }
