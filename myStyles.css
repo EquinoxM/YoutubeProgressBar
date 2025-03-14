@@ -212,7 +212,19 @@ svg > g > g > path[fill="url(#__lottie_element_133)"] {
     fill: #ff0000 !important
 }
 
-/*ring around the subscribe button*/
-svg > g > g > path[fill="url(#__lottie_element_128)"] {
+/*in channel page subscribe button*/
+svg > g > g > g > path[fill="rgb(255,39,145)"] {
+    fill: #ff0000 !important
+}
+
+mask > g > path[fill="url(#__lottie_element_6)"] {
+    fill: #ff0000 !important
+}
+
+mask > g > path[fill="url(#__lottie_element_11)"] {
+    fill: #ff0000 !important
+}
+/*incomplete*/
+#page-header > yt-page-header-renderer > yt-page-header-view-model > div > div.page-header-view-model-wiz__page-header-headline > div > yt-flexible-actions-view-model > div:nth-child(1) > yt-subscribe-button-view-model > yt-animated-action > div.animated-action__content-with-background > div.animated-action__lottie.animated-action__background-container > lottie-component > svg > g > g:nth-child(1) > g > path {
     fill: #ff0000 !important
 }
