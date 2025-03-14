@@ -206,3 +206,13 @@ svg > g > circle[fill="#FF0033"] {
 svg > g > g > path[fill="#FF0033"] {
     fill: #FF0000 !important
 }
+
+/*ring around the like/dislike buttons*/
+svg > g > g > path[fill="url(#__lottie_element_133)"] {
+    fill: #ff0000 !important
+}
+
+/*ring around the subscribe button*/
+svg > g > g > path[fill="url(#__lottie_element_128)"] {
+    fill: #ff0000 !important
+}
