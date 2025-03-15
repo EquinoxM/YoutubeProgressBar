@@ -208,23 +208,15 @@ svg > g > g > path[fill="#FF0033"] {
 }
 
 /*ring around the like/dislike buttons*/
-svg > g > g > path[fill="url(#__lottie_element_133)"] {
+div.smartimation__border > lottie-component > svg > g > g > path {
     fill: #ff0000 !important
 }
 
-/*in channel page subscribe button*/
-svg > g > g > g > path[fill="rgb(255,39,145)"] {
+/*in channel page/ under a video subscribe button*/
+div.animated-action__lottie.animated-action__background-container > lottie-component > svg > g > g > g > path {
     fill: #ff0000 !important
 }
 
-mask > g > path[fill="url(#__lottie_element_6)"] {
-    fill: #ff0000 !important
-}
-
-mask > g > path[fill="url(#__lottie_element_11)"] {
-    fill: #ff0000 !important
-}
-/*incomplete*/
-#page-header > yt-page-header-renderer > yt-page-header-view-model > div > div.page-header-view-model-wiz__page-header-headline > div > yt-flexible-actions-view-model > div:nth-child(1) > yt-subscribe-button-view-model > yt-animated-action > div.animated-action__content-with-background > div.animated-action__lottie.animated-action__background-container > lottie-component > svg > g > g:nth-child(1) > g > path {
+div.animated-action__lottie > lottie-component > svg > g > g > path:nth-child(1) {
     fill: #ff0000 !important
 }
