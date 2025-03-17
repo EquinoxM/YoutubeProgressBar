@@ -7,11 +7,14 @@
   ],
   "content_scripts": [
     {
-      "matches": ["*://*.youtube.com/*"],
+      "matches": ["*://*.youtube.com/*",
+                  "*://*.youtube-nocookie.com/*",
+                  "*://*.youtu.be/*"
+                  ],
       "css": ["myStyles.css"],
       "js": ["Content.js"],
-      "__COMMENT__": "https://www.reddit.com/r/webdev/comments/bjhc2z/comment/lf4iq91/",
-      "all_frames": true
+      "all_frames": true,
+      "__COMMENT__": "https://www.reddit.com/r/webdev/comments/bjhc2z/comment/lf4iq91/"
     }
   ],
   "browser_specific_settings": {
